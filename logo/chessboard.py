@@ -2,7 +2,7 @@ from tealight.logo import (move,
                            turn, 
                            color)
 
-def polygon(sidze, edges)
+def polygon(size, edges)
   for i in range (0, edges)
     move(size)
     turn(90)
