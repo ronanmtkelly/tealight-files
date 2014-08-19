@@ -4,6 +4,7 @@ from tealight.logo import (move,
 
 color = "black"
 
+def border(size)
 for i in range(0,4)
   move 100
-  turn 
+  turn 90
