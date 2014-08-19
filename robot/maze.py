@@ -6,5 +6,5 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-for i = range(0,6):
+for i in range(1,6):
   move(1)
