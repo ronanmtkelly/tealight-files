@@ -4,4 +4,4 @@ from tealight.logo import (move,
 
 color = "black"
 
-move()
+for i in range(0,8)
