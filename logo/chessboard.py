@@ -25,4 +25,4 @@ for i in range(0,4):
   move(400)
   turn(90)
   move(50)
-  gridlines(size)
+  gridlines(1)
