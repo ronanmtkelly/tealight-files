@@ -20,5 +20,8 @@ for i in range(0,4):
   move(400)
   turn(90)
   
+turn(180)
+move(50)
 for i in range(0,4):
   color("black")
+  
