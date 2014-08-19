@@ -2,9 +2,9 @@ from tealight.logo import (move,
                            turn, 
                            color)
 
-color = "black"
-
-def border(size)
-for i in range(0,4)
+def square(side)
+  for i in range(0, side)
   move 100
   turn 90
+ 
+
