@@ -6,7 +6,7 @@ def spiral(size):
     return
   
   move(size)
-  turn(40)
+  turn(30)
   spiral(size + 1)
   
 spiral(0)
