@@ -17,5 +17,6 @@ while touch() != 'fruit':
         turn(2)
     else:
       turn(1)
+      move()
       
 move(1)
