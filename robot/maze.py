@@ -11,11 +11,11 @@ while touch() != 'fruit':
     move(1)
   else:
     if left_side == 'wall':
-      turn(1)
+      turn(-1)
       move()
       if right_side == wall:
         turn(2)
     else:
-      turn(-1)
+      turn(1)
       
 move(1)
