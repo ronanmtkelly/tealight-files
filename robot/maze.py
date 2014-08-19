@@ -6,5 +6,11 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-for i in range(1,6):
-  move(1)
+while touch() != 'fruit':
+  if touch() == 'wall':
+    if left_side() == 'wall':
+      turn(1)
+    else
+      turn(-1)
+  else
+    move(1)
