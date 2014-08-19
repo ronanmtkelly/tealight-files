@@ -9,7 +9,6 @@ for i in range(0,4):
   move(400)
   turn(90) 
 
-def gridlines(size):
   for i in range(0,4):
     color("black")
     move(50)
@@ -21,8 +20,8 @@ def gridlines(size):
     move(400)
     turn(90)
   
-for i in range(0,4):
-  move(400)
-  turn(90)
-  move(50)
-  gridlines(1)
+  for i in range(0,4):
+    move(400)
+    turn(90)
+    move(50)
+  
