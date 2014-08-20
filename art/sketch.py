@@ -4,8 +4,14 @@ lastx = 0
 lasty = 0
 
 
+def handle_mousedown(x,y):
+  global lastx, lasty
+  
+  lastx = x
+  lasty = y
 
 def handle_mousemove(x,y,button):
+  global lastx, lasty
   
   if button == "left":
     color("blue")
