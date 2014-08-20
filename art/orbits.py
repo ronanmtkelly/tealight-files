@@ -44,8 +44,7 @@ def handle_frame():
   else:
     vy = vy + ay
   
-  while vx >= 0:
-    x = x + (vx - 0.05)
+  x = x + (vx - 0.05)
   y = y + vy
   
   color("blue")
