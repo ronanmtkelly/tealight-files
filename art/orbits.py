@@ -1,7 +1,7 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-x = 600
-y = 400
+x = 500
+y = 500
 vx = 0
 vy = 0
 ax = 0
@@ -22,8 +22,7 @@ def handle_keydown(key):
     ay = -power
   elif key == "down":
     ay = power
-  elif key != "up":
-    ay = -power
+  
 
 def handle_keyup(key):
   global ax, ay
