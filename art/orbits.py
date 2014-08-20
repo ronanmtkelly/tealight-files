@@ -9,6 +9,7 @@ ay = 0
 
 power = 0.3
 
+background("track.png")
 def handle_keydown(key):
   global ax, ay
   
