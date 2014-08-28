@@ -1,1 +1,1 @@
-print "A new file!"
+import github.anthonyajsmith.art.othello
